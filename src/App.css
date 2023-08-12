@@ -1,0 +1,30 @@
+.drum-pad{
+  border: 3px solid white;
+  padding: 20px;
+  border-radius: 6px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.whole-drum
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.drum-pad:hover
+{
+ font-size: 26px;
+  border: 3px solid cyan;
+  color: cyan;
+  box-shadow: 5px snow;
+  background-color: gray;
+  animation: fade 200 1 1000 1 1 1;
+}
+
+h1{
+  text-align: center;
+}
